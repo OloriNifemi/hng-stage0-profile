@@ -32,7 +32,7 @@ This task demonstrates my understanding of semantic structure, accessibility, an
 * How to Run Locally
 
 1.  Clone this repository:
--   git clone https://github.com/OloriNifemi/hng-stage0-profile.git
+-   gh repo clone OloriNifemi/hng-stage0-profile
 
 
 2. Navigate into the folder:
