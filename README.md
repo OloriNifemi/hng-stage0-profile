@@ -43,7 +43,7 @@ This task demonstrates my understanding of semantic structure, accessibility, an
 
 * Live Demo
 
-- Hosted Link: View on vercel
+- Hosted Link: [View on vercel](https://hng-stage0-profile.vercel.app/)
 - GitHub Repository: https://github.com/OloriNifemi/hng-stage0-profile.git
 
 
