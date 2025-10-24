@@ -3,25 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Frontend Wizards</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <!-- Main semantic element wrapping all about sections -->
     <main data-testid="test-about-page" class="about-container">
-        <nav class="navbar">
-            <div class="nav-container">
-                <!-- <a href="index.html" class="nav-logo">My Portfolio</a> -->
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">My Profile</a></li>
-                    <li><a href="about.html" class="nav-link active">About Me</a></li>
-                    <li><a href="contact.html" class="nav-link">Contact Me</a></li>
+        <nav class="navbar" data-testid="test-about-navbar">
+            <div class="nav-container" data-testid="test-about-nav-container">
+                <ul class="nav-menu" data-testid="test-about-nav-menu">
+                    <li><a href="index.html" class="nav-link" data-testid="test-about-nav-home">My Profile</a></li>
+                    <li><a href="about.html" class="nav-link active" data-testid="test-about-nav-about">About Me</a></li>
+                    <li><a href="contact.html" class="nav-link" data-testid="test-about-nav-contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
  
-
         <!-- Bio section with semantic structure -->
         <section data-testid="test-about-bio" class="about-section">
             <h2>My Bio</h2>
@@ -63,18 +61,18 @@
         </section>
 
         <!-- Extra thoughts section -->
-        <section data-testid="test-about-extra" class="about-sectionr">
+        <section data-testid="test-about-extra" class="about-section">
             <h2>Extra Thoughts</h2>
             <p>
                 I believe that web development is not just about writing code, d how they'll continue to evolve. I'm also passionate about mentoring 
                 others and contributing to a supportive developer community. Let's build something amazing together!
             </p>
-            <footer class="footer">
+
+            <footer class="footer" data-testid="test-about-footer">
                 <p>&copy; 2025 My Portfolio. All rights reserved.</p>
             </footer>
         </section>
     </main>
-
 
     <script src="script.js"></script>
 </body>
