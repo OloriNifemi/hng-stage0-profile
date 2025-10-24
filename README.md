@@ -62,5 +62,66 @@ This task demonstrates my understanding of semantic structure, accessibility, an
 - Accessible and keyboard-navigable links.
 
 
+
+
+
+
+<!-- Task 2 -->
+
+---
+
+## 🧭 Pages Overview
+
+### 🏠 Home Page (`index.html`)
+- Shows my Stage 0 profile card.
+- Displays real-time local time and milliseconds.
+- Social links (GitHub + LinkedIn).
+
+### 📞 Contact Page (`contact.html`)
+- Form fields:
+  - Full Name (`data-testid="test-contact-name"`)
+  - Email (`data-testid="test-contact-email"`)
+  - Subject (`data-testid="test-contact-subject"`)
+  - Message (`data-testid="test-contact-message"`)
+  - Submit Button (`data-testid="test-contact-submit"`)
+- Validation:
+  - All fields required.
+  - Email must be valid.
+  - Message must be at least 10 characters.
+- Shows success message after valid submission.
+- Accessible labels, `aria-describedby`, and keyboard navigation.
+
+### 👩‍💻 About Page (`about.html`)
+- Sections include:
+  - Bio (`data-testid="test-about-bio"`)
+  - Goals (`data-testid="test-about-goals"`)
+  - Areas of Low Confidence (`data-testid="test-about-confidence"`)
+  - Note to Future Self (`data-testid="test-about-future-note"`)
+  - Extra Thoughts (`data-testid="test-about-extra"`)
+- Built using semantic HTML (`<main>`, `<section>`, `<h2>`).
+
+---
+
+## 🧱 Built With
+- HTML5 (Semantic, Accessible)
+- CSS3 (Responsive Design)
+- JavaScript (Form validation, dynamic time updates)
+
+---
+
+## ♿ Accessibility
+- Proper `<label>` for all form inputs.
+- Error messages tied with `aria-describedby`.
+- Fully keyboard navigable.
+
+---
+
+* Live Demo
+
+- Hosted Link: [View on vercel](https://hng-stage0-profile.vercel.app/)
+- GitHub Repository: https://github.com/OloriNifemi/hng-stage0-profile.git
+
+
+
 ***Obafemi Precious Ayomipo
 Frontend Developer***
